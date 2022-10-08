@@ -12,6 +12,7 @@
 import tkinter
 from tkinter import ttk
 import threading
+import winsound
 
 #   Some global variables as indecators
 HoursIndex    = 0
@@ -144,6 +145,7 @@ def clock():
             #   Check if all Alarm minutes are consumed
             if state["Alarm"] == 0:
                 #   Reset Alarm Flag
+                winsound.Beep(750,500)
                 AlarmStatus = False
     
     # Second Test < 60 
