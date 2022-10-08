@@ -13,7 +13,7 @@ import tkinter
 from tkinter import ttk
 import threading
 import winsound
-from time import sleep 
+
 
 #   Some global variables as indecators
 HoursIndex    = 0
